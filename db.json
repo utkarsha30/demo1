@@ -1,16 +1,14 @@
 {
-    "otp":
-    [{
-        "contact": "7021571792",
-        "otp":"123456"
-    },
-    {
-        "contact": "1234567889",
-        "otp": "234456"
-    },
-    {
-        "contact": "8765432156",
-        "otp":"098765"
-    }
-]
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
